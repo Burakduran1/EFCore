@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\BURAK\\source\\repos\\EFCore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE22EEEF-94A7-40D4-9BE3-54453643E97E}|Many_to_Many_Relationship\\Many_to_Many_Relationship.csproj|c:\\users\\burak\\source\\repos\\efcore\\many_to_many_relationship\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE22EEEF-94A7-40D4-9BE3-54453643E97E}|Many_to_Many_Relationship\\Many_to_Many_Relationship.csproj|solutionrelative:many_to_many_relationship\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C70F117-15D0-4EE2-BF13-A8661374567E}|Updating_Related_Data\\Updating_Related_Data.csproj|c:\\users\\burak\\source\\repos\\efcore\\updating_related_data\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C70F117-15D0-4EE2-BF13-A8661374567E}|Updating_Related_Data\\Updating_Related_Data.csproj|solutionrelative:updating_related_data\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,13 +36,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\BURAK\\source\\repos\\EFCore\\Many_to_Many_Relationship\\Program.cs",
-              "RelativeDocumentMoniker": "Many_to_Many_Relationship\\Program.cs",
-              "ToolTip": "C:\\Users\\BURAK\\source\\repos\\EFCore\\Many_to_Many_Relationship\\Program.cs",
-              "RelativeToolTip": "Many_to_Many_Relationship\\Program.cs",
-              "ViewState": "AQIAAGQAAAAAAAAAAAA7wH4AAAAtAAAA",
+              "DocumentMoniker": "C:\\Users\\BURAK\\source\\repos\\EFCore\\Updating_Related_Data\\Program.cs",
+              "RelativeDocumentMoniker": "Updating_Related_Data\\Program.cs",
+              "ToolTip": "C:\\Users\\BURAK\\source\\repos\\EFCore\\Updating_Related_Data\\Program.cs",
+              "RelativeToolTip": "Updating_Related_Data\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAMIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T11:16:42.572Z",
+              "WhenOpened": "2024-06-05T11:48:48.13Z",
               "EditorCaption": ""
             }
           ]

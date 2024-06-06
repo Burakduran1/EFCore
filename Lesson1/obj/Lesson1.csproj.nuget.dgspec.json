@@ -11,7 +11,7 @@
         "projectName": "Lesson1",
         "projectPath": "C:\\Users\\BURAK\\source\\repos\\EFCore\\Lesson1\\Lesson1.csproj",
         "packagesPath": "C:\\Users\\BURAK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BURAK\\Source\\Repos\\EFCore\\Lesson1\\obj\\",
+        "outputPath": "C:\\Users\\BURAK\\source\\repos\\EFCore\\Lesson1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

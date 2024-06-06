@@ -11,7 +11,7 @@
         "projectName": "DataQuery",
         "projectPath": "C:\\Users\\BURAK\\source\\repos\\EFCore\\DataQuery\\DataQuery.csproj",
         "packagesPath": "C:\\Users\\BURAK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BURAK\\Source\\Repos\\EFCore\\DataQuery\\obj\\",
+        "outputPath": "C:\\Users\\BURAK\\source\\repos\\EFCore\\DataQuery\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

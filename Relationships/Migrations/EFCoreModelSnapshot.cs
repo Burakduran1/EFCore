@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Relationships.Migrations
 {
-    [DbContext(typeof(EFCore))]
+    [DbContext(typeof(EFCoreDbContext))]
     partial class EFCoreModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
