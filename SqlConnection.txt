@@ -1,0 +1,1 @@
+optionsBuilder.UseSqlServer("Server=Burak; Database=TPC; Integrated Security=True; TrustServerCertificate=True");

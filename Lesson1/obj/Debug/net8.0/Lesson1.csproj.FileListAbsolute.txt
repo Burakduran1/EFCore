@@ -128,3 +128,4 @@ C:\Users\BURAK\source\repos\EFCore\Lesson1\obj\Debug\net8.0\refint\Lesson1.dll
 C:\Users\BURAK\source\repos\EFCore\Lesson1\obj\Debug\net8.0\Lesson1.pdb
 C:\Users\BURAK\source\repos\EFCore\Lesson1\obj\Debug\net8.0\Lesson1.genruntimeconfig.cache
 C:\Users\BURAK\source\repos\EFCore\Lesson1\obj\Debug\net8.0\ref\Lesson1.dll
+C:\Users\BURAK\source\repos\EFCore\Lesson1\obj\Debug\net8.0\Lesson1.sourcelink.json

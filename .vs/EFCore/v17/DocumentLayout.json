@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\BURAK\\source\\repos\\EFCore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5C70F117-15D0-4EE2-BF13-A8661374567E}|Updating_Related_Data\\Updating_Related_Data.csproj|c:\\users\\burak\\source\\repos\\efcore\\updating_related_data\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C70F117-15D0-4EE2-BF13-A8661374567E}|Updating_Related_Data\\Updating_Related_Data.csproj|solutionrelative:updating_related_data\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02FBBB78-D456-407A-BDFA-3AE37829C3D9}|Constraints\\Constraints.csproj|c:\\users\\burak\\source\\repos\\efcore\\constraints\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02FBBB78-D456-407A-BDFA-3AE37829C3D9}|Constraints\\Constraints.csproj|solutionrelative:constraints\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,13 +36,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\BURAK\\source\\repos\\EFCore\\Updating_Related_Data\\Program.cs",
-              "RelativeDocumentMoniker": "Updating_Related_Data\\Program.cs",
-              "ToolTip": "C:\\Users\\BURAK\\source\\repos\\EFCore\\Updating_Related_Data\\Program.cs",
-              "RelativeToolTip": "Updating_Related_Data\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAMIAAAABAAAA",
+              "DocumentMoniker": "C:\\Users\\BURAK\\source\\repos\\EFCore\\Constraints\\Program.cs",
+              "RelativeDocumentMoniker": "Constraints\\Program.cs",
+              "ToolTip": "C:\\Users\\BURAK\\source\\repos\\EFCore\\Constraints\\Program.cs",
+              "RelativeToolTip": "Constraints\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T11:48:48.13Z",
+              "WhenOpened": "2024-07-21T21:25:33.943Z",
               "EditorCaption": ""
             }
           ]

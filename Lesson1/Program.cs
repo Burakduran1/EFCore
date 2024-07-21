@@ -15,11 +15,11 @@ Console.WriteLine("");
 //EFCoreDbContext context = new();
 //Product product = new()
 //{
-//  ProductName = "Burak"
+//    ProductName = "Burak"
 //};
 
 
-//Console.WriteLine(context.Entry(product)); 
+//Console.WriteLine(context.Entry(product));
 
 //await context.AddAsync(product);
 //Console.WriteLine(context.Entry(product));
@@ -163,7 +163,7 @@ Console.WriteLine("");
 //Employee e1 = new()
 //{
 //    Id = 1,
-//    ProductName ="Ali Can"
+//    ProductName = "Ensar Can"
 //};
 //context.Employees.Update(e1);
 //context.SaveChanges();
