@@ -128,3 +128,4 @@ C:\Users\BURAK\source\repos\EFCore\DataQuery\obj\Debug\net8.0\refint\DataQuery.d
 C:\Users\BURAK\source\repos\EFCore\DataQuery\obj\Debug\net8.0\DataQuery.pdb
 C:\Users\BURAK\source\repos\EFCore\DataQuery\obj\Debug\net8.0\DataQuery.genruntimeconfig.cache
 C:\Users\BURAK\source\repos\EFCore\DataQuery\obj\Debug\net8.0\ref\DataQuery.dll
+C:\Users\BURAK\source\repos\EFCore\DataQuery\obj\Debug\net8.0\DataQuery.sourcelink.json

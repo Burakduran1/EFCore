@@ -128,3 +128,4 @@ C:\Users\BURAK\source\repos\EFCore\ChangeTracker\obj\Debug\net8.0\refint\ChangeT
 C:\Users\BURAK\source\repos\EFCore\ChangeTracker\obj\Debug\net8.0\ChangeTracker.pdb
 C:\Users\BURAK\Source\Repos\EFCore\ChangeTracker\obj\Debug\net8.0\ChangeTracker.genruntimeconfig.cache
 C:\Users\BURAK\Source\Repos\EFCore\ChangeTracker\obj\Debug\net8.0\ref\ChangeTracker.dll
+C:\Users\BURAK\source\repos\EFCore\ChangeTracker\obj\Debug\net8.0\ChangeTracker.sourcelink.json

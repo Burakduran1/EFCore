@@ -128,3 +128,4 @@ C:\Users\BURAK\Source\Repos\EFCore\Tracking\obj\Debug\net8.0\refint\Tracking.dll
 C:\Users\BURAK\Source\Repos\EFCore\Tracking\obj\Debug\net8.0\Tracking.pdb
 C:\Users\BURAK\Source\Repos\EFCore\Tracking\obj\Debug\net8.0\Tracking.genruntimeconfig.cache
 C:\Users\BURAK\Source\Repos\EFCore\Tracking\obj\Debug\net8.0\ref\Tracking.dll
+C:\Users\BURAK\source\repos\EFCore\Tracking\obj\Debug\net8.0\Tracking.sourcelink.json
