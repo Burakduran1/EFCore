@@ -15,14 +15,6 @@ ApplicationDbContext context = new();
 
 #endregion
 #endregion
-
-//await context.Employees.AddAsync(new() { Name = "Gençay", Surname = "Yıldız", Salary = 1000 });
-//await context.Employees.AddAsync(new() { Name = "Mustafa", Surname = "Yıldız", Salary = 1000 });
-//await context.Employees.AddAsync(new() { Name = "Tuaip", Surname = "Yıldız", Salary = 1000 });
-
-//await context.Customers.AddAsync(new() { Name = "Muiddin" });
-//await context.SaveChangesAsync();
-
 #region Sequence Yapılandırması
 
 #region StartsAt
@@ -37,7 +29,11 @@ ApplicationDbContext context = new();
 //Yani Sequence herhangi bir tabloya bağımlı değildir. 
 //Identity bir sonraki değeri diskten alırken Sequence ise RAM'den alır. Bu yüzden önemli ölçüde Identity'e nazaran daha hızlı, performanslı ve az maliyetlidir.
 #endregion
-
+//Employee employee = new Employee() { Name = "Burak Can", Surname = "Duran", Salary = 4000 };
+//Employee employee1 = new Employee() { Name = "Ensar ", Surname = "Duran", Salary = 2000 };
+//Customer customer = new Customer() { Name = "Nisanur" };
+//await context.AddRangeAsync(employee, employee1, customer);
+//await context.SaveChangesAsync();
 class Employee
 {
     public int Id { get; set; }
@@ -56,18 +52,18 @@ class ApplicationDbContext : DbContext
     public DbSet<Customer> Customers { get; set; }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.HasSequence("EC_Sequence");
-            //.StartsAt(100)
-            //.IncrementsBy(5);
+        modelBuilder.HasSequence("EC_Sequence")
+            .StartsAt(100)
+            .IncrementsBy(5);
 
 
         modelBuilder.Entity<Employee>()
             .Property(e => e.Id)
             .HasDefaultValueSql("NEXT VALUE FOR EC_Sequence");
 
-        //modelBuilder.Entity<Customer>()
-        //    .Property(c => c.Id)
-        //    .HasDefaultValueSql("NEXT VALUE FOR EC_Sequence");
+        modelBuilder.Entity<Customer>()
+            .Property(c => c.Id)
+            .HasDefaultValueSql("NEXT VALUE FOR EC_Sequence");
     }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {

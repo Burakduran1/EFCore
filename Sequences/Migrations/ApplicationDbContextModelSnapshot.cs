@@ -20,15 +20,16 @@ namespace Sequences.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.HasSequence("EC_Sequence");
+            modelBuilder.HasSequence("EC_Sequence")
+                .StartsAt(100L)
+                .IncrementsBy(5);
 
             modelBuilder.Entity("Customer", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+                        .HasColumnType("int")
+                        .HasDefaultValueSql("NEXT VALUE FOR EC_Sequence");
 
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
