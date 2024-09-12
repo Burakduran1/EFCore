@@ -4112,11 +4112,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BURAK\\Source\\Repos\\EFCore\\ChangeTracker\\ChangeTracker.csproj",
+      "projectUniqueName": "C:\\Users\\BURAK\\source\\repos\\EFCore\\ChangeTracker\\ChangeTracker.csproj",
       "projectName": "ChangeTracker",
-      "projectPath": "C:\\Users\\BURAK\\Source\\Repos\\EFCore\\ChangeTracker\\ChangeTracker.csproj",
+      "projectPath": "C:\\Users\\BURAK\\source\\repos\\EFCore\\ChangeTracker\\ChangeTracker.csproj",
       "packagesPath": "C:\\Users\\BURAK\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BURAK\\Source\\Repos\\EFCore\\ChangeTracker\\obj\\",
+      "outputPath": "C:\\Users\\BURAK\\source\\repos\\EFCore\\ChangeTracker\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4131,6 +4131,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4185,7 +4186,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

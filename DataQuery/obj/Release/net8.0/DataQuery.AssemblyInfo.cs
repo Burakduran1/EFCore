@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DataQuery")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+97506dbe6842007bf169e49bc4622284c6a8d5e4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02ccf4a425a878cc4d472694741e545bab8273c8")]
 [assembly: System.Reflection.AssemblyProductAttribute("DataQuery")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DataQuery")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
