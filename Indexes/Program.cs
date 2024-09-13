@@ -108,6 +108,6 @@ class ApplicationDbContext : DbContext
     }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=?; Datatbase=?Index; Integrated Security=?; TrustServerCertificate=True");
+        optionsBuilder.UseSqlServer("?");
     }
 }

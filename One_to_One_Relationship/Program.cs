@@ -74,7 +74,7 @@ public class EFCoreDbContext : DbContext
     public DbSet<CalisanAdresi> CalisanAdresleri { get; set; }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=?; Datatbase=?EFCoreDb; Integrated Security=?; TrustServerCertificate=True;");
+        optionsBuilder.UseSqlServer("?");
     }
     //Model'ların(entity) veritabanında generate edilecek yapıları  bu fonksiyonda içerisinde konfigüre edilir.
     protected override void OnModelCreating(ModelBuilder modelBuilder)

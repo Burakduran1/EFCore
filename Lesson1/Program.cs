@@ -230,7 +230,7 @@ public class EFCoreDbContext : DbContext  //ETicaretContext diye veri tabanına 
 {
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) //konfigürasyon ayarları gerçekleştirilir.
     {
-        optionsBuilder.UseSqlServer("Server=?; Datatbase=?EFCoreDb; Integrated Security=?; TrustServerCertificate=True;");
+        optionsBuilder.UseSqlServer("?");
         //Provider
         //ConnectionString
         //Lazy Loading

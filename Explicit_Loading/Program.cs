@@ -84,6 +84,6 @@ class ApplicationDbContext : DbContext
     }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=?; Datatbase=?ExplicitDb; Integrated Security=?; TrustServerCertificate=True");
+        optionsBuilder.UseSqlServer("?");
     }
 }

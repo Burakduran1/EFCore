@@ -256,7 +256,7 @@ class ApplicationDbContext : DbContext
     public DbSet<Author> Authors { get; set; }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=?; Datatbase=?ApplicationDb; Integrated Security=?;TrustServerCertificate=True;");
+        optionsBuilder.UseSqlServer("   ");
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

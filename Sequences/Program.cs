@@ -67,7 +67,7 @@ class ApplicationDbContext : DbContext
     }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=?; Datatbase=?Sequences; Integrated Security = True; TrustServerCertificate=True");
+        optionsBuilder.UseSqlServer("?");
     }
 }// See https://aka.ms/new-console-template for more information
 

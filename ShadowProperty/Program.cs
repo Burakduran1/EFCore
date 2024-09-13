@@ -84,7 +84,7 @@ class ApplicationDbContext : DbContext
     public DbSet<Post> Posts { get; set; }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=?; Datatbase=?BackingFields; Integrated Security=?;TrustServerCertificate=True;");
+        optionsBuilder.UseSqlServer("?");
     }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

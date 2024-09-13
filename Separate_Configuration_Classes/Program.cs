@@ -57,6 +57,6 @@ class ApplicationDbContext : DbContext
     }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=?; Datatbase=?Separate_Configuration_Classes; Integrated Security=?;");
+        optionsBuilder.UseSqlServer("?");
     }
 }

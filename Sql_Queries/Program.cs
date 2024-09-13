@@ -115,7 +115,7 @@ public class ApplicationDbContext : DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
 
-        optionsBuilder.UseSqlServer("Server=?; Datatbase=?Sql_Queries; Integrated Security=?; TrustServerCertificate=true; ");
+        optionsBuilder.UseSqlServer("    ");
     }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

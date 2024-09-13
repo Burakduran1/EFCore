@@ -218,6 +218,6 @@ class ApplicationDbContext : DbContext
     }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=? Datatbase=?Loading_Related; Integrated Security=?; TrustServerCertificate=True");
+        optionsBuilder.UseSqlServer("?");
     }
 }
