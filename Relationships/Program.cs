@@ -98,7 +98,7 @@ public class EFCoreDbContext : DbContext
 {
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=Burak; Database=EFCoreDb; Integrated Security=True;TrustServerCertificate=True;");
+        optionsBuilder.UseSqlServer("?");
     }
 
     public DbSet<Calisan> Calisanlar { get; set; }

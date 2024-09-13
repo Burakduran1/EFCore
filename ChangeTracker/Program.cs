@@ -220,7 +220,7 @@ public class EFCoreDbContext : DbContext
 {
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=Burak; Database=EFCoreDb; Integrated Security=True;TrustServerCertificate=True;");
+        optionsBuilder.UseSqlServer("?");
     }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

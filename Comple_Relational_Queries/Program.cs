@@ -238,7 +238,7 @@ public class ApplicationDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=Burak; Database=Complex_Queries; Integrated Security=True; TrustServerCertificate=True");
+        optionsBuilder.UseSqlServer("?");
     }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

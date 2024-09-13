@@ -9,7 +9,7 @@ public class ApplicationDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=Burak; Database=Example; Integrated Security=True;");
+        optionsBuilder.UseSqlServer("Server=?; Datatbase=?Example; Integrated Security=?;");
 
 
     }

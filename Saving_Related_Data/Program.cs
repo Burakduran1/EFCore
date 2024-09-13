@@ -44,7 +44,7 @@ ApplicationDbContext context = new();
 //    public DbSet<Address> Addresses { get; set; }
 //    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 //    {
-//        optionsBuilder.UseSqlServer("Server=Burak; Database=EFCoreDb; Integrated Security=True;TrustServerCertificate=True;");
+//        optionsBuilder.UseSqlServer("?");
 //    }
 
 //    protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -131,7 +131,7 @@ class ApplicationDbContext : DbContext
     public DbSet<Blog> Blogs { get; set; }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=Burak; Database=EFCoreDb; Integrated Security=True;TrustServerCertificate=True;");
+        optionsBuilder.UseSqlServer("?");
     }
 }
 #endregion
@@ -236,7 +236,7 @@ class ApplicationDbContext : DbContext
 //    public DbSet<Author> Authors { get; set; }
 //    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 //    {
-//        optionsBuilder.UseSqlServer("Server=Burak; Database=EFCoreDb; Integrated Security=True;TrustServerCertificate=True;");
+//        optionsBuilder.UseSqlServer("?");
 //    }
 //    protected override void OnModelCreating(ModelBuilder modelBuilder)
 //    {

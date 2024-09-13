@@ -102,7 +102,7 @@ public class EFCoreDbContext : DbContext
     public DbSet<Yazar> Yazarlar { get; set; }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=Burak; Database=EFCoreDb; Integrated Security=True; TrustServerCertificate=True;");
+        optionsBuilder.UseSqlServer("Server=?; Datatbase=?EFCoreDb; Integrated Security=?; TrustServerCertificate=True;");
     }
     //Data Annotations
     //protected override void OnModelCreating(ModelBuilder modelBuilder)

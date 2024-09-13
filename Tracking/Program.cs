@@ -78,7 +78,7 @@ public class EFCoreDbContext : DbContext
 {
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=Burak; Database=EFCoreDb; Integrated Security=True;TrustServerCertificate=True;");
+        optionsBuilder.UseSqlServer("?");
         optionsBuilder.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking); // normalde default olarak AllTrackingdir. Bu kod satırı ile artık default olarak nesnelerin takip edilmeyecegini bildiriyoruz.
     }
     protected override void OnModelCreating(ModelBuilder modelBuilder)

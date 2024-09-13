@@ -62,7 +62,7 @@ public class EFCoreDbContext : DbContext
     public DbSet<Departman> Departmanlar { get; set; }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=Burak; Database=EFCoreDb; Integrated Security=True; TrustServerCertificate=True;");
+        optionsBuilder.UseSqlServer("Server=?; Datatbase=?EFCoreDb; Integrated Security=?; TrustServerCertificate=True;");
     }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

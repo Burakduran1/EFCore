@@ -89,6 +89,6 @@ class ApplicationDbContext : DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
 
-        optionsBuilder.UseSqlServer("Server=Burak; Database=TPT; Integrated Security=True;");
+        optionsBuilder.UseSqlServer("Server=?; Datatbase=?TPT; Integrated Security=?;");
     }
 }

@@ -180,7 +180,7 @@ class ApplicationDbContext : DbContext
     public DbSet<Author> Authors { get; set; }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=Burak; Database=ApplicationDb; Integrated Security=True;TrustServerCertificate=True;");
+        optionsBuilder.UseSqlServer("Server=?; Datatbase=?ApplicationDb; Integrated Security=?;TrustServerCertificate=True;");
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

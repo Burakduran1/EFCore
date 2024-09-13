@@ -94,7 +94,7 @@ public class ApplicationDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=Burak; Database=GeneratedValue; Integrated Security=True;");
+        optionsBuilder.UseSqlServer("Server=?; Datatbase=?GeneratedValue; Integrated Security=?;");
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

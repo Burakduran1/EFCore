@@ -1,1 +1,1 @@
-optionsBuilder.UseSqlServer("Server=Burak; Database=TPC; Integrated Security=True; TrustServerCertificate=True");
+optionsBuilder.UseSqlServer("Server=?; Password=?; UserName=? Datatbase=?TPC; Integrated Security=?; TrustServerCertificate=True");

@@ -187,7 +187,7 @@ class ApplicationDbContext : DbContext
     }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseLazyLoadingProxies().UseSqlServer("Server=Burak; Database=LazyLoading; Integrated Security=True; TrustServerCertificate=True");
+        optionsBuilder.UseLazyLoadingProxies().UseSqlServer("Server=?; Datatbase=?LazyLoading; Integrated Security=?; TrustServerCertificate=True");
 
         //optionsBuilder.UseLazyLoadingProxies();
     }

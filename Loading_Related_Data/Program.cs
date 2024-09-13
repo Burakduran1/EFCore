@@ -218,6 +218,6 @@ class ApplicationDbContext : DbContext
     }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=Burak; Database=Loading_Related; Integrated Security=True; TrustServerCertificate=True");
+        optionsBuilder.UseSqlServer("Server=? Datatbase=?Loading_Related; Integrated Security=?; TrustServerCertificate=True");
     }
 }

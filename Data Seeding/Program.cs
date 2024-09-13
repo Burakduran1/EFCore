@@ -56,7 +56,7 @@ public class ApplicationDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=Burak; Database=Seed_Data; Integrated Security= True");
+        optionsBuilder.UseSqlServer("Server=?; Datatbase=?Seed_Data; Integrated Security= True");
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

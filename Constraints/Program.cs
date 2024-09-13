@@ -129,7 +129,7 @@ class ApplicationDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=Burak; Database=Constraints; Integrated Security = True; TrustServerCertificate=True");
+        optionsBuilder.UseSqlServer("Server=?; Datatbase=?Constraints; Integrated Security = True; TrustServerCertificate=True");
     }
 }
 
